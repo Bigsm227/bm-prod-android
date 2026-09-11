@@ -10,7 +10,7 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
-# Fixer des versions stables pour éviter les erreurs de licence
+# Configuration Android stable
 android.api = 31
 android.minapi = 21
 android.sdk = 31
