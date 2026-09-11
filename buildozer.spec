@@ -10,7 +10,12 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
+# Fixer des versions stables pour éviter les erreurs de licence
+android.api = 31
+android.minapi = 21
+android.sdk = 31
+android.accept_sdk_license = True
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
-android.accept_sdk_license = True
